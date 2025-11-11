@@ -1,0 +1,503 @@
+[
+  {
+    "id": 257,
+    "is_read": false,
+    "log_id": 923,
+    "message": "Alert: Payment processing error",
+    "service": "payment-service",
+    "severity": "ERROR",
+    "timestamp": "2025-11-11T21:29:11.695573",
+    "type": "system"
+  },
+  {
+    "id": 256,
+    "is_read": false,
+    "log_id": 921,
+    "message": "Alert: Failed to connect to database",
+    "service": "api-gateway",
+    "severity": "ERROR",
+    "timestamp": "2025-11-11T21:28:51.610426",
+    "type": "system"
+  },
+  {
+    "id": 255,
+    "is_read": false,
+    "log_id": 919,
+    "message": "Alert: Database connection established",
+    "service": "api-gateway",
+    "severity": "ERROR",
+    "timestamp": "2025-11-11T21:28:32.563723",
+    "type": "system"
+  },
+  {
+    "id": 254,
+    "is_read": false,
+    "log_id": 918,
+    "message": "Alert: CPU usage high",
+    "service": "user-service",
+    "severity": "CRITICAL",
+    "timestamp": "2025-11-11T21:28:22.532630",
+    "type": "system"
+  },
+  {
+    "id": 253,
+    "is_read": false,
+    "log_id": 916,
+    "message": "Alert: Unauthorized access attempt",
+    "service": "api-gateway",
+    "severity": "CRITICAL",
+    "timestamp": "2025-11-11T21:27:56.488698",
+    "type": "system"
+  },
+  {
+    "id": 252,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 1",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:28.623364",
+    "type": "system"
+  },
+  {
+    "id": 251,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 2",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:27.517107",
+    "type": "system"
+  },
+  {
+    "id": 250,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 3",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:26.329140",
+    "type": "system"
+  },
+  {
+    "id": 249,
+    "is_read": false,
+    "log_id": 913,
+    "message": "Alert: Failed to connect to database",
+    "service": "user-service",
+    "severity": "ERROR",
+    "timestamp": "2025-11-11T21:27:25.408988",
+    "type": "system"
+  },
+  {
+    "id": 248,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 4",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:25.197305",
+    "type": "system"
+  },
+  {
+    "id": 247,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 5",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:24.080543",
+    "type": "system"
+  },
+  {
+    "id": 246,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 6",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:22.957416",
+    "type": "system"
+  },
+  {
+    "id": 245,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 7",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:21.843673",
+    "type": "system"
+  },
+  {
+    "id": 244,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 8",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:20.731118",
+    "type": "system"
+  },
+  {
+    "id": 243,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 9",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:19.595124",
+    "type": "system"
+  },
+  {
+    "id": 242,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 10",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:18.439379",
+    "type": "system"
+  },
+  {
+    "id": 241,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 11",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:17.314998",
+    "type": "system"
+  },
+  {
+    "id": 240,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 12",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:16.197928",
+    "type": "system"
+  },
+  {
+    "id": 239,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 13",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:15.067890",
+    "type": "system"
+  },
+  {
+    "id": 238,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 14",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:13.899623",
+    "type": "system"
+  },
+  {
+    "id": 237,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 15",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:12.782689",
+    "type": "system"
+  },
+  {
+    "id": 236,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 16",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:11.661732",
+    "type": "system"
+  },
+  {
+    "id": 235,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 17",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:10.547550",
+    "type": "system"
+  },
+  {
+    "id": 234,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 18",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:09.416638",
+    "type": "system"
+  },
+  {
+    "id": 233,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 19",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:08.296253",
+    "type": "system"
+  },
+  {
+    "id": 232,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 20",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:07.171823",
+    "type": "system"
+  },
+  {
+    "id": 231,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 21",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:06.015727",
+    "type": "system"
+  },
+  {
+    "id": 230,
+    "is_read": false,
+    "log_id": 911,
+    "message": "Alert: Network timeout",
+    "service": "user-service",
+    "severity": "CRITICAL",
+    "timestamp": "2025-11-11T21:27:05.341817",
+    "type": "system"
+  },
+  {
+    "id": 229,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 22",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:04.897801",
+    "type": "system"
+  },
+  {
+    "id": 228,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 23",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:03.770372",
+    "type": "system"
+  },
+  {
+    "id": 227,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 24",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:02.643365",
+    "type": "system"
+  },
+  {
+    "id": 226,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 25",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:01.519599",
+    "type": "system"
+  },
+  {
+    "id": 225,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 26",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:27:00.406916",
+    "type": "system"
+  },
+  {
+    "id": 224,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 27",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:59.273947",
+    "type": "system"
+  },
+  {
+    "id": 223,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 28",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:58.142767",
+    "type": "system"
+  },
+  {
+    "id": 222,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 29",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:57.021139",
+    "type": "system"
+  },
+  {
+    "id": 221,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 30",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:55.907594",
+    "type": "system"
+  },
+  {
+    "id": 220,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 31",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:54.760067",
+    "type": "system"
+  },
+  {
+    "id": 219,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 32",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:53.634733",
+    "type": "system"
+  },
+  {
+    "id": 218,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 33",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:52.516809",
+    "type": "system"
+  },
+  {
+    "id": 217,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 34",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:51.408393",
+    "type": "system"
+  },
+  {
+    "id": 216,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 35",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:50.219032",
+    "type": "system"
+  },
+  {
+    "id": 215,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 36",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:49.064311",
+    "type": "system"
+  },
+  {
+    "id": 214,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 37",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:47.908611",
+    "type": "system"
+  },
+  {
+    "id": 213,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 38",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:46.794774",
+    "type": "system"
+  },
+  {
+    "id": 212,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 39",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:45.685018",
+    "type": "system"
+  },
+  {
+    "id": 211,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 40",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:44.552977",
+    "type": "system"
+  },
+  {
+    "id": 210,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 41",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:43.424862",
+    "type": "system"
+  },
+  {
+    "id": 209,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 42",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:42.224293",
+    "type": "system"
+  },
+  {
+    "id": 208,
+    "is_read": false,
+    "log_id": null,
+    "message": "Auto-fix applied to alert 43",
+    "service": null,
+    "severity": "INFO",
+    "timestamp": "2025-11-11T21:26:41.112909",
+    "type": "system"
+  }
+]
+
