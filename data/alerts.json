@@ -1,5 +1,117 @@
 [
   {
+    "id": 279,
+    "timestamp": "2025-11-11T23:02:00.914327",
+    "type": "system",
+    "message": "Alert: Unauthorized access attempt",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 267,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 278,
+    "timestamp": "2025-11-11T23:01:50.867988",
+    "type": "system",
+    "message": "Alert: CPU usage high",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 266,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 277,
+    "timestamp": "2025-11-11T23:01:14.753945",
+    "type": "system",
+    "message": "Alert: Database connection established",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 262,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 276,
+    "timestamp": "2025-11-11T23:01:06.714405",
+    "type": "system",
+    "message": "Alert: Database connection established",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 261,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 275,
+    "timestamp": "2025-11-11T23:01:00.667942",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 260,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 274,
+    "timestamp": "2025-11-11T23:00:46.623796",
+    "type": "system",
+    "message": "Alert: Payment processing error",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 259,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 273,
+    "timestamp": "2025-11-11T23:00:34.557970",
+    "type": "system",
+    "message": "Alert: Unauthorized access attempt",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 258,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 272,
+    "timestamp": "2025-11-11T23:00:29.483852",
+    "type": "system",
+    "message": "Alert: CPU usage high",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 257,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
     "id": 271,
     "timestamp": "2025-11-11T22:59:49.390677",
     "type": "system",

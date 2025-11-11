@@ -1,5 +1,150 @@
 [
   {
+    "id": 264,
+    "timestamp": "2025-11-11T23:01:32.798367",
+    "severity": "WARNING",
+    "service": "auth-service",
+    "message": "Unauthorized access attempt",
+    "details": "Log details for event generated at 2025-11-11T23:01:32.798367"
+  },
+  {
+    "id": 263,
+    "timestamp": "2025-11-11T23:01:24.778256",
+    "severity": "WARNING",
+    "service": "user-service",
+    "message": "Network timeout",
+    "details": "Log details for event generated at 2025-11-11T23:01:24.778256"
+  },
+  {
+    "id": 262,
+    "timestamp": "2025-11-11T23:01:14.731499",
+    "severity": "CRITICAL",
+    "service": "user-service",
+    "message": "Database connection established",
+    "details": "Log details for event generated at 2025-11-11T23:01:14.731499",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 261,
+    "timestamp": "2025-11-11T23:01:06.696851",
+    "severity": "CRITICAL",
+    "service": "user-service",
+    "message": "Database connection established",
+    "details": "Log details for event generated at 2025-11-11T23:01:06.696851",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 260,
+    "timestamp": "2025-11-11T23:01:00.650319",
+    "severity": "CRITICAL",
+    "service": "payment-service",
+    "message": "User authentication failed",
+    "details": "Log details for event generated at 2025-11-11T23:01:00.650319",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 259,
+    "timestamp": "2025-11-11T23:00:46.605120",
+    "severity": "ERROR",
+    "service": "user-service",
+    "message": "Payment processing error",
+    "details": "Log details for event generated at 2025-11-11T23:00:46.605120",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 258,
+    "timestamp": "2025-11-11T23:00:34.514800",
+    "severity": "ERROR",
+    "service": "payment-service",
+    "message": "Unauthorized access attempt",
+    "details": "Log details for event generated at 2025-11-11T23:00:34.514800",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 257,
+    "timestamp": "2025-11-11T23:00:29.462744",
+    "severity": "CRITICAL",
+    "service": "user-service",
+    "message": "CPU usage high",
+    "details": "Log details for event generated at 2025-11-11T23:00:29.462744",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 256,
+    "timestamp": "2025-11-11T23:00:16.451898",
+    "severity": "WARNING",
+    "service": "user-service",
+    "message": "Unauthorized access attempt",
+    "details": "Log details for event generated at 2025-11-11T23:00:16.451898"
+  },
+  {
+    "id": 255,
+    "timestamp": "2025-11-11T23:00:08.435404",
+    "severity": "INFO",
+    "service": "api-gateway",
+    "message": "CPU usage high",
+    "details": "Log details for event generated at 2025-11-11T23:00:08.435404"
+  },
+  {
+    "id": 254,
+    "timestamp": "2025-11-11T23:00:02.416226",
+    "severity": "WARNING",
+    "service": "auth-service",
+    "message": "Unauthorized access attempt",
+    "details": "Log details for event generated at 2025-11-11T23:00:02.416226"
+  },
+  {
+    "id": 253,
+    "timestamp": "2025-11-11T22:59:49.374791",
+    "severity": "CRITICAL",
+    "service": "auth-service",
+    "message": "Application started successfully",
+    "details": "Log details for event generated at 2025-11-11T22:59:49.374791",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 252,
+    "timestamp": "2025-11-11T22:59:43.362890",
+    "severity": "INFO",
+    "service": "auth-service",
+    "message": "Application started successfully",
+    "details": "Log details for event generated at 2025-11-11T22:59:43.362890"
+  },
+  {
+    "id": 251,
+    "timestamp": "2025-11-11T22:59:32.333785",
+    "severity": "ERROR",
+    "service": "api-gateway",
+    "message": "Failed to connect to database",
+    "details": "Log details for event generated at 2025-11-11T22:59:32.333785",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 250,
+    "timestamp": "2025-11-11T22:59:23.303170",
+    "severity": "CRITICAL",
+    "service": "user-service",
+    "message": "Memory usage exceeds threshold",
+    "details": "Log details for event generated at 2025-11-11T22:59:23.303170",
+    "stack_trace": "Exception in thread \"main\" java.lang.NullPointerException\n    at com.example.myproject.Book.getTitle(Book.java:16)\n    at com.example.myproject.Author.getBookTitles(Author.java:25)\n    at com.example.myproject.Bootstrap.main(Bootstrap.java:14)"
+  },
+  {
+    "id": 249,
+    "timestamp": "2025-11-11T22:59:11.291393",
+    "severity": "INFO",
+    "service": "auth-service",
+    "message": "Database connection established",
+    "details": "Log details for event generated at 2025-11-11T22:59:11.291393"
+  },
+  {
+    "id": 248,
+    "timestamp": "2025-11-11T22:59:03.271944",
+    "severity": "WARNING",
+    "service": "payment-service",
+    "message": "Payment processing error",
+    "details": "Log details for event generated at 2025-11-11T22:59:03.271944"
+  },
+  {
     "id": 247,
     "timestamp": "2025-11-11T22:58:51.249237",
     "severity": "INFO",

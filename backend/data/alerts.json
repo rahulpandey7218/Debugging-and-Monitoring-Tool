@@ -1,5 +1,75 @@
 [
   {
+    "id": 998,
+    "timestamp": "2025-11-11T23:01:42.812799",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2495,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 997,
+    "timestamp": "2025-11-11T23:01:23.539383",
+    "type": "system",
+    "message": "Alert: Failed to connect to database",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2493,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 996,
+    "timestamp": "2025-11-11T23:00:56.285940",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2490,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 995,
+    "timestamp": "2025-11-11T23:00:38.166410",
+    "type": "system",
+    "message": "Alert: Payment processing error",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2488,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 994,
+    "timestamp": "2025-11-11T23:00:31.065635",
+    "type": "system",
+    "message": "Alert: Database connection established",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2487,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
     "id": 993,
     "timestamp": "2025-11-11T23:00:08.949923",
     "type": "system",
