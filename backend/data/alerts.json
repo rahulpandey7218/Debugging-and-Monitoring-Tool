@@ -1,5 +1,341 @@
 [
   {
+    "id": 993,
+    "timestamp": "2025-11-11T23:00:08.949923",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2485,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 992,
+    "timestamp": "2025-11-11T23:00:00.883573",
+    "type": "system",
+    "message": "Alert: Payment processing error",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2484,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 991,
+    "timestamp": "2025-11-11T22:58:33.617226",
+    "type": "system",
+    "message": "Alert: CPU usage high",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2476,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 990,
+    "timestamp": "2025-11-11T22:58:11.523687",
+    "type": "system",
+    "message": "Alert: Unauthorized access attempt",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2474,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 989,
+    "timestamp": "2025-11-11T22:57:50.424527",
+    "type": "system",
+    "message": "Alert: CPU usage high",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2472,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 988,
+    "timestamp": "2025-11-11T22:57:42.344314",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2471,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 987,
+    "timestamp": "2025-11-11T22:57:32.280811",
+    "type": "system",
+    "message": "Alert: Application started successfully",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2470,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 986,
+    "timestamp": "2025-11-11T22:57:16.129635",
+    "type": "system",
+    "message": "Alert: Memory usage exceeds threshold",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2468,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 985,
+    "timestamp": "2025-11-11T22:57:03.050275",
+    "type": "system",
+    "message": "Alert: Payment processing error",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2467,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 984,
+    "timestamp": "2025-11-11T22:56:49.989158",
+    "type": "system",
+    "message": "Alert: Failed to connect to database",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2466,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 983,
+    "timestamp": "2025-11-11T22:56:43.926760",
+    "type": "system",
+    "message": "Alert: Application started successfully",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2465,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 982,
+    "timestamp": "2025-11-11T22:56:30.835752",
+    "type": "system",
+    "message": "Alert: Payment processing error",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2463,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 981,
+    "timestamp": "2025-11-11T22:56:16.698226",
+    "type": "system",
+    "message": "Alert: Invalid request parameters",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2462,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 980,
+    "timestamp": "2025-11-11T22:55:50.560464",
+    "type": "system",
+    "message": "Alert: Application started successfully",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2459,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 979,
+    "timestamp": "2025-11-11T22:55:37.445993",
+    "type": "system",
+    "message": "Alert: Database connection established",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2458,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 978,
+    "timestamp": "2025-11-11T22:55:32.332940",
+    "type": "system",
+    "message": "Alert: Application started successfully",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2457,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 977,
+    "timestamp": "2025-11-11T22:55:18.270024",
+    "type": "system",
+    "message": "Alert: Failed to connect to database",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2456,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 976,
+    "timestamp": "2025-11-11T22:55:07.161302",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2455,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 975,
+    "timestamp": "2025-11-11T22:54:59.052828",
+    "type": "system",
+    "message": "Alert: Memory usage exceeds threshold",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2454,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 974,
+    "timestamp": "2025-11-11T22:54:53.986245",
+    "type": "system",
+    "message": "Alert: Database connection established",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2453,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 973,
+    "timestamp": "2025-11-11T22:53:51.767351",
+    "type": "system",
+    "message": "Alert: User authentication failed",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2446,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 972,
+    "timestamp": "2025-11-11T22:53:25.713739",
+    "type": "system",
+    "message": "Alert: Memory usage exceeds threshold",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2444,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 971,
+    "timestamp": "2025-11-11T22:53:09.655677",
+    "type": "system",
+    "message": "Alert: Payment processing error",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 2442,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 970,
+    "timestamp": "2025-11-11T22:52:59.605602",
+    "type": "system",
+    "message": "Alert: Invalid request parameters",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 2441,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
     "id": 969,
     "timestamp": "2025-11-11T22:52:38.384320",
     "type": "system",
@@ -13551,3 +13887,18 @@
     "acknowledged": false,
     "acknowledged_at": null
   },
+  {
+    "id": 1,
+    "timestamp": "2025-11-11T12:20:58.729900",
+    "type": "system",
+    "message": "Alert: Memory usage exceeds threshold",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 850,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  }
+]
