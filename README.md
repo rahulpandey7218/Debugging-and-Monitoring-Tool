@@ -1,75 +1,205 @@
-# Debugging and Monitoring Tool
+```markdown
+# 🚀 Debugging & Monitoring Tool  
+A powerful, lightweight, and intelligent monitoring dashboard built using **Flask (Backend)** and **HTML/CSS/JavaScript (Frontend)**.  
+This tool centralizes application logs, system metrics, alerts, and AI-based debugging suggestions.
 
-A tool that automatically reads logs, finds errors, and suggests possible solutions using AI. This project includes a real-time monitoring dashboard to make debugging faster and easier.
+---
 
-## Project Structure
+## ✅ Features
+### 🔍 **1. Real-Time Log Monitoring**
+- Displays logs with severity levels: **INFO, WARNING, ERROR, CRITICAL**
+- Filter logs by **severity**, **service**, and **timestamp**
+- Search logs instantly
+
+### ⚠️ **2. Smart Alerting System**
+- Triggers alerts for:
+  - High CPU usage  
+  - High memory usage  
+  - Disk usage issues  
+  - Error / Critical logs  
+- Alerts stored in JSON & shown on dashboard  
+- Auto-Fix Feature ✅
+
+### 🤖 **3. AI-Based Debugging (Simple ML Module)**
+- Gives possible root causes  
+- Suggests solutions based on log patterns  
+- Helps faculty see AI integration
+
+### 📊 **4. Dashboard UI**
+- Clean, modern UI  
+- Shows:
+  - Total logs  
+  - Error & critical logs  
+  - Logs by severity  
+  - Active alerts  
+  - System stats
+
+### 🗂️ **5. Manual Database (JSON–Based)**
+Fully manual — **no PostgreSQL / no Neon DB** required.  
+Stored inside:
+- `backend/data/logs.json`
+- `backend/data/alerts.json`
+- `backend/data/system_stats.json`
+
+---
+
+## 🏗️ Project Folder Structure
 
 ```
-debugging_and_monitoring_tool/
-├── frontend/                  # Frontend code (HTML, CSS, JavaScript)
-│   ├── css/                   # CSS styles
-│   ├── js/                    # JavaScript files
-│   └── index.html             # Main HTML file
-└── backend/                   # Flask backend
-    ├── logs/                  # Log storage
-    ├── app.py                 # Main Flask application
-    └── requirements.txt       # Python dependencies
+
+Debugging-and-Monitoring-Tool/
+│
+├── backend/
+│   ├── app.py                # Main Flask API
+│   ├── ai_module.py          # AI Debugging Logic
+│   ├── alerts.py             # Alert handler
+│   ├── database.py           # JSON database manager
+│   ├── predictive.py         # (Optional) Predictive analytics module
+│   ├── system_monitor.py     # CPU/MEM/DISK status
+│   ├── data/
+│   │   ├── logs.json
+│   │   ├── alerts.json
+│   │   └── system_stats.json
+│   ├── logs/
+│   │   └── sample_logs.json
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── index.html
+│   ├── css/
+│   │   └── styles.css
+│   └── js/
+│       └── main.js
+│
+├── README.md
+└── .gitignore
+
 ```
 
-## Features
+---
 
-- **Log Management**: Collects logs and stores them safely in a file
-- **AI Debugging**: Uses machine learning to read logs, classify errors, and suggest fixes
-- **Dashboard & Alerts**: React.js web dashboard to show logs, errors, and send alerts for critical issues
+## ✅ Installation & Setup
 
-## Technologies Used
+### **1️⃣ Clone the repository**
+```
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Python Flask
-- **Database**: JSON file storage (can be extended to MongoDB or PostgreSQL)
-- **AI**: Python ML/NLP libraries
+git clone [https://github.com/rahulpandey7218/Debugging-and-Monitoring-Tool.git](https://github.com/rahulpandey7218/Debugging-and-Monitoring-Tool.git)
+cd Debugging-and-Monitoring-Tool
 
-## How to Run
+```
 
-### Backend Setup
+### **2️⃣ Create & Activate Virtual Environment**
+```
 
-1. Navigate to the backend directory:
-   ```
-   cd backend
-   ```
+python -m venv venv
+venv\Scripts\activate  (Windows)
 
-2. Install dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
+```
 
-3. Run the Flask application:
-   ```
-   python app.py
-   ```
+### **3️⃣ Install dependencies**
+```
 
-### Frontend Setup
+pip install -r backend/requirements.txt
 
-1. Open the `index.html` file in a web browser
+```
 
-## Usage
+### **4️⃣ Run Backend**
+```
 
-1. The dashboard will display log statistics and a table of log entries
-2. Use the filters to view logs by severity or service
-3. Click on a log entry to view details
-4. Use the AI analysis button to get suggestions for fixing errors
+python backend/app.py
 
-## Project Status
+```
 
-This project is currently at 70% completion with the following components implemented:
-- Basic project structure
-- Backend Flask API with log management
-- Frontend dashboard with visualization
-- Sample data for testing
+Backend runs on:  
+👉 http://127.0.0.1:5001/
 
-## Next Steps
+### **5️⃣ Open Frontend**
+Open this file directly in browser:
+```
 
-- Complete the AI debugging module with more advanced ML models
-- Implement real-time alerts and notifications
-- Add user authentication
-- Extend database support for MongoDB or PostgreSQL
+frontend/index.html
+
+```
+
+---
+
+## ✅ API Endpoints (Important for Viva)
+
+### 🔹 Get Logs  
+```
+
+GET /api/logs
+
+```
+
+### 🔹 Add Log  
+```
+
+POST /api/add-log
+
+```
+
+### 🔹 Get Alerts  
+```
+
+GET /api/alerts
+
+```
+
+### 🔹 Mark Alert Read  
+```
+
+POST /api/alerts/<id>/mark-read
+
+```
+
+### 🔹 Auto-Fix Alerts  
+```
+
+POST /api/alerts/<id>/auto-fix
+POST /api/alerts/auto-fix-all
+
+```
+
+---
+
+## 📸 Screenshots  
+(Add your screenshots here after running the project)
+
+```
+
+![](screenshots/dashboard.png)
+![](screenshots/alerts.png)
+![](screenshots/logs.png)
+
+```
+
+---
+
+## ✅ Technologies Used
+- **Python + Flask**
+- **HTML + CSS + JavaScript**
+- **JSON for manual storage**
+- **psutil** (system monitoring)
+- **Basic ML module** for AI debugging
+
+---
+
+## ✅ Future Enhancements
+✔ Add PostgreSQL / Neon DB  
+✔ Add user authentication  
+✔ Add WebSocket-based real-time updates  
+✔ Mobile-responsive UI  
+
+---
+
+## ⭐ Contribute  
+Pull requests are welcome!
+
+---
+
+## 📬 Contact  
+**Developer:** Rahul Pandey  
+GitHub: https://github.com/rahulpandey7218  
+Project Repo: Debugging-and-Monitoring-Tool  
+
