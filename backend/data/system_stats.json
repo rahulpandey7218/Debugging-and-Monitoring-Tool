@@ -1,5 +1,50 @@
 [
   {
+    "id": 320,
+    "timestamp": "2025-11-11T23:13:28.795513",
+    "cpu_percent": 12.2,
+    "memory_percent": 84.2,
+    "disk_percent": 28.0,
+    "memory_total_gb": 15.65,
+    "memory_used_gb": 13.18
+  },
+  {
+    "id": 319,
+    "timestamp": "2025-11-11T23:12:57.782640",
+    "cpu_percent": 29.0,
+    "memory_percent": 84.0,
+    "disk_percent": 28.0,
+    "memory_total_gb": 15.65,
+    "memory_used_gb": 13.14
+  },
+  {
+    "id": 318,
+    "timestamp": "2025-11-11T23:12:26.759660",
+    "cpu_percent": 25.8,
+    "memory_percent": 84.5,
+    "disk_percent": 28.0,
+    "memory_total_gb": 15.65,
+    "memory_used_gb": 13.23
+  },
+  {
+    "id": 317,
+    "timestamp": "2025-11-11T23:11:55.739529",
+    "cpu_percent": 21.4,
+    "memory_percent": 84.1,
+    "disk_percent": 28.0,
+    "memory_total_gb": 15.65,
+    "memory_used_gb": 13.16
+  },
+  {
+    "id": 316,
+    "timestamp": "2025-11-11T23:11:24.727061",
+    "cpu_percent": 49.7,
+    "memory_percent": 85.0,
+    "disk_percent": 28.0,
+    "memory_total_gb": 15.65,
+    "memory_used_gb": 13.31
+  },
+  {
     "id": 315,
     "timestamp": "2025-11-11T23:02:06.389935",
     "cpu_percent": 22.6,

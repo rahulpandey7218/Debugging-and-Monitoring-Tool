@@ -1,5 +1,89 @@
 [
   {
+    "id": 285,
+    "timestamp": "2025-11-11T23:13:56.121457",
+    "type": "system",
+    "message": "Alert: Unauthorized access attempt",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 337,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 284,
+    "timestamp": "2025-11-11T23:11:58.893255",
+    "type": "system",
+    "message": "Alert: Unauthorized access attempt",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 327,
+      "service": "user-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 283,
+    "timestamp": "2025-11-11T23:11:43.838481",
+    "type": "system",
+    "message": "Alert: Application started successfully",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 325,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 282,
+    "timestamp": "2025-11-11T23:11:35.805804",
+    "type": "system",
+    "message": "Alert: Application started successfully",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 324,
+      "service": "auth-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 281,
+    "timestamp": "2025-11-11T23:11:20.732269",
+    "type": "system",
+    "message": "Alert: Memory usage exceeds threshold",
+    "severity": "ERROR",
+    "data": {
+      "log_id": 322,
+      "service": "payment-service",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
+    "id": 280,
+    "timestamp": "2025-11-11T23:11:13.690530",
+    "type": "system",
+    "message": "Alert: Network timeout",
+    "severity": "CRITICAL",
+    "data": {
+      "log_id": 321,
+      "service": "api-gateway",
+      "is_read": false
+    },
+    "acknowledged": false,
+    "acknowledged_at": null
+  },
+  {
     "id": 279,
     "timestamp": "2025-11-11T23:02:00.914327",
     "type": "system",
